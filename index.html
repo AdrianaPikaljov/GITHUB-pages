@@ -13,6 +13,7 @@
         <ul>
             <li><a href="index.html">Kalendri loomine</a></li>
             <li><a href="diagramm.html">Diagrammid</a></li>
+            <li><a href="valem.html">Arvutusväli</a></li>
         </ul>
     </nav>
 </header>
@@ -39,7 +40,18 @@
             Mina kasutasin uut kalendrit, et luua eraldi töögraafik, kus nädalavahetused on vabad.
         </p>
 
-        <img src="images/kalender1.png" alt="Kalendri loomine">
+        <img src="img/1.png" alt="Change Working Time menüü">
+    </section>
+
+    <section>
+        <h2>Uue baaskalendri loomine</h2>
+        <p>
+            Vajutades <b>Create New Calendar</b> avaneb dialoog, kus saab valida,
+            kas luua täiesti uus kalender või kopeerida olemasolev.
+            Anna kalendrile nimi (nt TEST) ja kinnita OK.
+        </p>
+
+        <img src="img/2.png" alt="Create New Base Calendar dialoog">
     </section>
 
     <section>
@@ -50,39 +62,29 @@
         </p>
 
         <ol>
-            <li>Vali kalendris sobiv päev</li>
+            <li>Vali kalendrist sobiv päev</li>
             <li>Vajuta <b>Details</b></li>
-            <li>Määra tööaeg (nt 08:00–17:00)</li>
+            <li>Määra tööaeg (nt 17:00–20:00 ja 21:00–00:00)</li>
             <li>Lisa eripäevad nagu puhkus või riigipühad</li>
         </ol>
 
         <p>
-            Muutsin tööpäeva pikkuseks 8 tundi ja lisasin puhkepäevad,
+            Muutsin tööpäeva pikkuseks 6 tundi ja lisasin erand <b>KellaAeg</b>,
             et ajakava oleks realistlikum.
         </p>
 
-        <img src="images/kalender2.png" alt="Tööaja muutmine">
+        <img src="img/3.png" alt="Change Working Time kalender eranditega">
     </section>
 
     <section>
-        <h2>Kalendri kasutamine projektis</h2>
+        <h2>Erandi detailid</h2>
         <p>
-            Kalender mõjutab kogu projekti ajakava. Kui tööpäevi on vähem,
-            muutuvad ülesannete kestused pikemaks.
+            Erandi <b>KellaAeg</b> puhul on määratud tööajad 17:00–20:00 ja 21:00–00:00,
+            kordumismuster on <b>Daily</b> iga päev ning kehtivusaeg
+            07.10.2025 – 26.11.2027 (781 korda).
         </p>
 
-        <ol>
-            <li>Ava <b>Project → Project Information</b></li>
-            <li>Vali loodud kalender</li>
-            <li>Vajuta OK</li>
-        </ol>
-
-        <p>
-            Kui kalender on määratud, arvutab Microsoft Project automaatselt,
-            millal ülesanded algavad ja lõppevad.
-        </p>
-
-        <img src="images/kalender3.png" alt="Kalendri kasutamine">
+        <img src="img/4.png" alt="Erandi KellaAeg detailid">
     </section>
 
 </main>
