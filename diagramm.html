@@ -19,16 +19,48 @@
 
 <main>
   <p>
-    ProjectLibre kasutab peamiselt Gantt diagrammi projekti visualiseerimiseks.
+    ProjectLibre kasutab peamiselt Gantt diagrammi projekti visualiseerimiseks, kuid pakub ka võrgudiagrammi (Network), mis näitab ülesannete vahelisi sõltuvusi.
   </p>
 
-  <ol>
-    <li>Ava vaade <b>Gantt Chart</b></li>
-    <li>Lisa ülesanded</li>
-    <li>Seosta ülesanded ja määra kestused</li>
-  </ol>
+  <section>
+    <h2>Samm 1 — Ava võrgudiagramm</h2>
+    <p>
+      Mine ülemisse menüüsse ja vali vahekaart <b>View</b>. Vali sealt <b>Network</b> (võrgudiagramm). Avaneb vaade, kus iga ülesanne kuvatakse eraldi kastina, millel on näha ülesande nimi, kestus, algus- ja lõppkuupäev.
+    </p>
 
-  <img src="images/diagramm.png" alt="Diagramm">
+    <img src="img/Pilt1.png" alt="Võrgudiagramm — ülesannete kastid">
+  </section>
+
+  <section>
+    <h2>Samm 2 — Võrgudiagrammi struktuur</h2>
+    <p>
+      Võrgudiagrammis on kõik ülesanded ühendatud nooltega vastavalt nende järjestusele ja sõltuvustele. Projekti alguses on <b>Ettevalmistus</b>, millest hargnevad alamülesanded: <b>kohviku valik</b>, <b>piduliku riie ostmine</b> jt. Projekti lõpetab ülesanne <b>sõpradega jalutuskäik</b>.
+    </p>
+
+    <img src="img/Pilt3.png" alt="Võrgudiagrammi struktuur sõltuvustega">
+  </section>
+
+  <section>
+    <h2>Samm 3 — Ava Gantti diagramm ressurssidega</h2>
+    <p>
+      Mine tagasi vahekaardile <b>View</b> ja vali <b>Gantt</b>. Gantti vaates näed ülesandeid ajajoonel koos määratud ressurssidega. Ressursid kuvatakse otse Gantti ribade kõrval — näiteks <b>kohvik:Oleksandra;Mariia</b> või <b>Mariia[50%];Oleksandra[50%]</b>.
+    </p>
+
+    <img src="img/Pilt2.png" alt="Gantti diagramm ressurssidega">
+  </section>
+
+  <section>
+    <h2>Samm 4 — Gantti diagrammi lugemine</h2>
+    <p>
+      Gantti diagrammis on näha projekti ajavahemik <b>27. aprill – 18. mai 2026</b>. Ülesanded on kuvatud siniste ribadena, sõltuvused mustade nooltena. Projekt lõpeb teemantiga tähistatud vahesammu ehk milestoniga kuupäeval <b>18.05.26</b>.
+    </p>
+    <ul>
+      <li>Sinised ribad — ülesanded koos kestusega</li>
+      <li>Mustad nooled — sõltuvused ülesannete vahel</li>
+      <li>Teemant (◆) — milestone ehk vahesam</li>
+      <li>Ribade kõrval — määratud ressursid ja nende koormus</li>
+    </ul>
+  </section>
 </main>
 
 </body>
